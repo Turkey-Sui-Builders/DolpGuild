@@ -1,5 +1,22 @@
 # 🐬 DolpGuild - Ocean-Themed Web3 Professional Network
 
+**Team:**
+Batuhan Bayazıt 
+github: https://github.com/Batuhan4
+telegram: @batuhan4
+
+Muhammed Akıncı 
+github: https://github.com/MuhammedAkinci  
+telegram name : @makinci77
+
+Mehmet Berat Güngördü 
+github: https://github.com/Expiyon  
+telegram name : @Expitonn
+
+Osman Nuri Yıldız 
+Github : https://github.com/osmannyildiz
+telegram name: @osmannyildiz
+
 **Blockchain:** Sui Network
 **Language:** Move
 **Type:** Decentralized Professional Network with Pod-Based Communities
