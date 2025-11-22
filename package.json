@@ -1,0 +1,36 @@
+{
+  "name": "dolphguild-tests",
+  "version": "3.0.0",
+  "description": "DolpGuild V3 - Integration Tests with Jest",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:integration": "jest --testPathPattern=integration"
+  },
+  "devDependencies": {
+    "@mysten/sui.js": "^0.54.1",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.6",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "roots": [
+      "<rootDir>/tests"
+    ],
+    "testMatch": [
+      "**/__tests__/**/*.ts",
+      "**/?(*.)+(spec|test).ts"
+    ],
+    "collectCoverageFrom": [
+      "tests/**/*.ts",
+      "!tests/**/*.d.ts"
+    ]
+  }
+}
+
